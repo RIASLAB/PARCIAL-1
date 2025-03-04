@@ -83,6 +83,9 @@ public class Libro {
     public static void main(String[] args) {
         Libro Libro1 = new Libro("Cien años de soledad", "Jhon Edinson Riascos L", 5,2);
         Libro1.imprimir();
+        System.out.println("Préstamo realizado: " + Libro1.prestamo());
+        System.out.println("Devolución realizada: " + Libro1.devolucion());
+
     }
     
 }
